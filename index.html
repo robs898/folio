@@ -1,0 +1,145 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Folio</h1>
+
+    <div class="row">
+      <div class=".col-6">
+        <table class="table table-sm">
+          <th scope="row">Long Term</th>
+          <th scope="row">Short Term</th>
+          <tr>
+            <td>
+              <table id="longCoins">
+                <tr>
+                  <td>BTC</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>ETH</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>XMR</td>
+                  <td>0.18351576</td>
+                </tr>
+                  <td>STEEM</td>
+                  <td>17.94</td>
+                </tr>
+                <tr>
+                  <td>LKK</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>NEO</td>
+                  <td>1.17</td>
+                </tr>
+                <tr>
+                  <td>PPY</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>FCT</td>
+                  <td>1.67</td>
+                </tr>
+                <tr>
+                  <td>STORJ</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>ETC</td>
+                  <td>2.03</td>
+                </tr>
+                <tr>
+                  <td>XRP</td>
+                  <td>122.09</td>
+                </tr>
+                <tr>
+                  <td>OMG</td>
+                  <td>1.64</td>
+                </tr>
+                <tr>
+                  <td>GAS</td>
+                  <td>4.52</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table id="shortCoins" class="table table-hover">
+                <tr>
+                  <td>ICN</td>
+                  <td>2.75</td>
+                </tr>
+                <tr>
+                  <td>XEM</td>
+                  <td>50.30</td>
+                </tr>
+                <tr>
+                  <td>DASH</td>
+                  <td>0.02130841</td>
+                </tr>
+                <tr>
+                  <td>WINGS</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>LSK</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>WAVES</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>BAT</td>
+                  <td>179.76</td>
+                </tr>
+                <tr>
+                  <td>BTS</td>
+                  <td>205.37</td>
+                </tr>
+                <tr>
+                  <td>SYS</td>
+                  <td>134.17</td>
+                </tr>
+                <tr>
+                  <td>XZC</td>
+                  <td>2.43</td>
+                </tr>
+                <tr>
+                  <td>GNT</td>
+                  <td>138.48</td>
+                </tr>
+                <tr>
+                  <td>MAID</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>ANT</td>
+                  <td>4.58</td>  
+                </tr>          
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <button type="button" class="btn btn-primary" onclick="main()">Compute</button>
+    </div>
+
+    <div class="row">
+      <table id="info" class="table table-hover"></table>
+    </div>
+    
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
