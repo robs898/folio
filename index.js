@@ -39,7 +39,7 @@ function getLocalCoins(selector) {
   for (var i = 0, row; row = coinTable.rows[i]; i++) {
     var d = {};
     d.symbol = row.cells[0].innerText;
-    d.amount = parseFloat(row.cells[1].innerText);
+    d.amount = parseFloat(row.cells[1].getElementsByTagName("input")[0].value);
     a.push(d);
   };
   return a;
